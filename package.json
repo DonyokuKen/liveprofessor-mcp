@@ -1,0 +1,34 @@
+{
+  "bin": {
+    "liveprofessor-mcp": "index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "osc": "^2.4.5",
+    "zod": "^3.23.0"
+  },
+  "description": "MCP server bridging AI agents to LiveProfessor (Audiostrom) via its OSC control surface: snapshots, cues, view sets, transport, DSP status.",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "liveprofessor-mcp",
+  "scripts": {
+    "mock": "node mock-liveprofessor.js",
+    "start": "node index.js",
+    "test": "node test-client.js",
+    "test:codec": "node test-codec.js"
+  },
+  "version": "1.0.0",
+  "author": "Donyoku",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DonyokuKen/liveprofessor-mcp.git"
+  },
+  "homepage": "https://github.com/DonyokuKen/liveprofessor-mcp",
+  "keywords": [
+    "mcp",
+    "liveprofessor",
+    "osc",
+    "live-sound",
+    "audiostrom"
+  ]
+}
